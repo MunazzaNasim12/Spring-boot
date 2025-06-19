@@ -1,0 +1,32 @@
+# Ignore Maven and Gradle build directories
+target/
+build/
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore dependency-reduced POM files
+dependency-reduced-pom.xml
+
+# Ignore Spring Boot-specific cache files
+.sts4-cache/
+.springBeans/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

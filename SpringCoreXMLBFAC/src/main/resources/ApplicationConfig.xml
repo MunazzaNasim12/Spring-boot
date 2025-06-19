@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:p="http://www.springframework.org/schema/p" 
+xmlns:c="http://www.springframework.org/schema/c" 
+xmlns:context="http://www.springframework.org/schema/context" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+<!-- <bean id="depart" class="util.Department" c:id="1" c:name="Rohan"/> -->
+<!--  <bean id="depart2" class="util.Department" c:id="2" c:name="Rohat"/>-->
+
+<!-- <bean id="emp" class="util.Employeer" p:id="1" p:name="munazza" p:salary="5643.2"/> -->
+<bean id="emp" class="util.Employeer" c:id="1" c:name="munazza" c:salary="5643.2"/>
+
+
+</beans>
